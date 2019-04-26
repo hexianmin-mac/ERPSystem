@@ -5,7 +5,7 @@ import java.util.List;
 import org.shop.pojo.Hw;
 
 public interface HwDao {
-	List  sp(Hw hw);
+	List<Hw>  sp(Hw hw);
 	int   spxj(Hw hw);
 	int  xjrk(Hw hw);
 	int jj(int id);
